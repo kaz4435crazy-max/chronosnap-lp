@@ -1,11 +1,6 @@
-@import "tailwindcss";
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  margin: 0;
-  background: #ffffff;
-  color: #111111;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
 }
