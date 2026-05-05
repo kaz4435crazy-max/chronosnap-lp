@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { background: #050505; color: #fff; }
+.section { @apply mx-auto max-w-7xl px-6 py-24 md:px-10; }
+.card { @apply rounded-3xl border border-white/10 bg-white/[0.04] p-7 backdrop-blur; }
+.btn { @apply inline-flex items-center justify-center rounded-full px-7 py-3 text-sm font-bold transition; }
+.btn-primary { @apply bg-accent text-black hover:bg-white; }
+.btn-secondary { @apply border border-white/20 text-white hover:border-accent hover:text-accent; }
