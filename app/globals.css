@@ -6,6 +6,6 @@ html {
 
 body {
   margin: 0;
-  background: #030303;
-  color: #ffffff;
+  background: #ffffff; /* ← 白 */
+  color: #111111;     /* ← 黒文字 */
 }
